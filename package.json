@@ -9,7 +9,6 @@
   },
   "author": "Claire Miller",
   "dependencies": {
-    "body-parser": "^1.17.2",
     "express": "^4.15.4"
   },
   "repository": {
@@ -17,7 +16,7 @@
     "url": "https://github.com/clairetmiller4/personal-website"
   },
   "engines": {
-    "node": "6.11.2",
+    "node": "8.4.0",
     "npm": "5.3.0"
   }
 }
