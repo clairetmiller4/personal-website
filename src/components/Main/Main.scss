@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+$font: 'Source Sans Pro', sans-serif;
+
+.Main {
+  display: flex;
+  flex-direction: column;
+}
+
+.Content {
+  font-family: $font;
+}

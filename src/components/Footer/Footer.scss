@@ -1,0 +1,28 @@
+$background-color: purple;
+$link-color: white;
+
+.Footer {
+  display: flex;
+  justify-content: center;
+
+  div {
+    padding-left: 2px;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: $background-color;
+    color: $link-color;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+
+    .social-icon {
+      height: 20px;
+      width: 20px;
+    }
+  }
+}

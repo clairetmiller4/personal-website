@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+$name-font: 'Satisfy', cursive;
+$nav-font: 'Source Sans Pro', sans-serif;
+$link-color: black;
+$active-link-color: purple;
+
+.Header {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    text-align: center;
+    font-family: $name-font;
+    //font-size: 300%;
+    //margin: 0;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    font-family: $nav-font;
+
+    .link {
+      text-decoration: none;
+      color: $link-color;
+      padding-left: 1%;
+      padding-right: 1%
+    }
+
+    .active-link {
+      color: $active-link-color;
+    }
+  }
+}

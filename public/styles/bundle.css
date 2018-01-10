@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);@import url(https://fonts.googleapis.com/css?family=Satisfy);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);.Main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.Content {
+  font-family: "Source Sans Pro", sans-serif; }
+.Header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .Header h1 {
+    text-align: center;
+    font-family: "Satisfy", cursive; }
+  .Header .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: "Source Sans Pro", sans-serif; }
+    .Header .navbar .link {
+      text-decoration: none;
+      color: black;
+      padding-left: 1%;
+      padding-right: 1%; }
+    .Header .navbar .active-link {
+      color: purple; }
+.About {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .About .about-content {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .About img {
+    width: 100%;
+    border-radius: 50%; }
+  .About .about-img {
+    width: 20%; }
+  .About .about-text {
+    width: 50%;
+    padding-left: 5%; }
+.Work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .Work .work-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .Work .work-content .curr h2 {
+      text-align: center; }
+    .Work .work-content .work-card {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: top;
+          -ms-flex-align: top;
+              align-items: top; }
+      .Work .work-content .work-card img {
+        width: 20%;
+        height: 20%; }
+      .Work .work-content .work-card .work-card-text {
+        width: 80%;
+        padding-left: 10%; }
+        .Work .work-content .work-card .work-card-text h3 {
+          margin: 0; }
+        .Work .work-content .work-card .work-card-text h4 {
+          margin: 0; }
+.Footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .Footer div {
+    padding-left: 2px; }
+  .Footer a {
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 30px;
+    height: 30px; }
+    .Footer a .social-icon {
+      height: 20px;
+      width: 20px; }
+
+/*# sourceMappingURL=bundle.css.map*/

@@ -1,3 +1,3 @@
 # Personal Website
 
-Placeholder helloworld will evenutally be made into personal website.
+Built using Node.js, Express, React.js, and Webpack.
