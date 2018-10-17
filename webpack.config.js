@@ -20,9 +20,10 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(paths.SRC, 'index.html'),
+      template: './src/index.html',
+      filename: './index.html'
     }),
-    new ExtractTextPlugin('bundle.css')
+    new ExtractTextPlugin({filename: 'bundle.css'})
   ],
 
   module: {
@@ -38,11 +39,7 @@ module.exports = {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: [
-            'css-loader',
-            'postcss-loader',
-            'sass-loader'
-          ]
+          use: ['css-loader', 'sass-loader']
         })
       },
       {
