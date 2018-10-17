@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import styles from './Footer.scss'
+import styles from './Footer.scss';
 
-import FaGithub from 'react-icons/lib/fa/github';
-import FaLinkedin from 'react-icons/lib/fa/linkedin';
+// import FaGithub from 'react-icons/lib/fa/github';
+// import FaLinkedin from 'react-icons/lib/fa/linkedin';
 
 class Footer extends Component {
-
   render() {
-    return(
-      <div className='Footer'>
-        <div>
+    return (
+      <div className="Footer">
+        {/* <div>
           <a href={"https://github.com/clairetmiller4"}>
             <FaGithub className='social-icon' />
           </a>
@@ -20,10 +19,10 @@ class Footer extends Component {
           <a href={"https://www.linkedin.com/in/clairetmiller/"}>
             <FaLinkedin className='social-icon' />
           </a>
-        </div>
+        </div> */}
       </div>
-    )
+    );
   }
 }
 
-export default Footer
+export default Footer;
