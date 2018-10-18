@@ -15,7 +15,11 @@ module.exports = {
   // the bundle file we will get in the result
   output: {
     path: paths.DIST,
-    filename: 'bundle.js',
+    filename: 'bundle.js'
+  },
+
+  resolve: {
+    extensions: ['.js', '.jsx']
   },
 
   plugins: [
@@ -23,7 +27,7 @@ module.exports = {
       template: './src/index.html',
       filename: './index.html'
     }),
-    new ExtractTextPlugin({filename: 'bundle.css'})
+    new ExtractTextPlugin({ filename: 'bundle.css' })
   ],
 
   module: {
@@ -31,9 +35,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: [
-          'babel-loader'
-        ]
+        use: ['babel-loader']
       },
       {
         test: /\.scss$/,
@@ -44,9 +46,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|gif)$/,
-        use: [
-          'file-loader'
-        ]
+        use: ['file-loader']
       }
     ]
   }

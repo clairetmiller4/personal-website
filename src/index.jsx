@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 // import 'semantic-ui-css/semantic.min.css';
 
 // Include your new Components here
-import Main from './components/Main/Main.jsx';
+import Main from './components/Main/Main';
 
 render(
   <Router>
     <Main />
   </Router>,
-  document.getElementById('app'),
+  document.getElementById('app')
 );
