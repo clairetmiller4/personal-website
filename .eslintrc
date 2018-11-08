@@ -5,6 +5,7 @@
     "prettier/prettier": ["error"],
     "global-require": 0,
     "jsx-a11y/alt-text": 0,
-    "react/no-unescaped-entities": 0
+    "react/no-unescaped-entities": 0,
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
   }
 }
