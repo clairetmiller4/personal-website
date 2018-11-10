@@ -15,7 +15,7 @@ function Footer() {
       </div>
       <div>
         <a
-          sclassName="social-icon"
+          className="social-icon"
           href="https://www.linkedin.com/in/clairetmiller/"
         >
           <FontAwesomeIcon icon={faLinkedinIn} />
