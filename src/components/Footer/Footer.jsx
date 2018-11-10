@@ -2,22 +2,25 @@ import React from 'react';
 
 import './Footer.scss';
 
-// import FaGithub from 'react-icons/lib/fa/github';
-// import FaLinkedin from 'react-icons/lib/fa/linkedin';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
     <div className="Footer">
-      {/* <div>
-        <a href={"https://github.com/clairetmiller4"}>
-          <FaGithub className='social-icon' />
+      <div>
+        <a className="social-icon" href="https://github.com/clairetmiller4">
+          <FontAwesomeIcon icon={faGithub} />
         </a>
       </div>
       <div>
-        <a href={"https://www.linkedin.com/in/clairetmiller/"}>
-          <FaLinkedin className='social-icon' />
+        <a
+          sclassName="social-icon"
+          href="https://www.linkedin.com/in/clairetmiller/"
+        >
+          <FontAwesomeIcon icon={faLinkedinIn} />
         </a>
-      </div> */}
+      </div>
     </div>
   );
 }
