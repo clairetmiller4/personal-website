@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - '10'
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+install:
+  - yarn install
+
+script:
+  - yarn lint
+
+deploy:
+  provider: heroku
+  api_key: $HEROKU_API_KEY
+  skip_cleanup: true
+  app: ctm-website
+  on:
+    repo: clairetmiller4/personal-website
