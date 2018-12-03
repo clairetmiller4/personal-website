@@ -1,19 +1,17 @@
 const express = require('express');
+const path = require('path');
 
 const app = express();
-const path = require('path');
 
 const port = process.env.PORT || 8080;
 
-const publicPath = path.join(__dirname, 'public');
-const indexPath = path.join(publicPath, 'index.html');
-
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'dist')));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
 app.listen(port, () => {
+  // eslint-disable-next-line no-console
   console.log(`Server listening on port ${port}`);
 });
