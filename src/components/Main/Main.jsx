@@ -13,7 +13,11 @@ import Footer from '../Footer/Footer';
 function Main() {
   return (
     <div className="Main">
+      <div className="vertical-bar-container">
+        <div className="vertical-bar" />
+      </div>
       <Header />
+      <div className="divider" />
       <div className="Content">
         <Route exact path="/" component={About} />
         <Route path="/work" component={Work} />

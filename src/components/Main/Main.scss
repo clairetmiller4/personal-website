@@ -5,6 +5,23 @@ $font: 'Source Sans Pro', sans-serif;
 .Main {
   display: flex;
   flex-direction: column;
+  height: 100%;
+}
+
+.vertical-bar-container {
+  padding-left: 30px;
+}
+
+.vertical-bar {
+  height: 100%;
+  position: absolute;
+  width: 30px;
+  background-color: purple;
+}
+
+.divider {
+  background-color: black;
+  height: 2px;
 }
 
 .Content {
