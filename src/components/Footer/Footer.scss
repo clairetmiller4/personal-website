@@ -1,9 +1,9 @@
-$background-color: purple;
-$link-color: white;
+@import '../../styles/index.scss';
 
 .Footer {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
   padding-bottom: 10px;
 
   div {
@@ -12,8 +12,8 @@ $link-color: white;
 
   a {
     text-decoration: none;
-    background-color: $background-color;
-    color: $link-color;
+    background-color: $color-social-icon-bg;
+    color: $color-social-icon;
     border-radius: 50%;
     display: flex;
     justify-content: center;

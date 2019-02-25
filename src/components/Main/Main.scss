@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
-$font: 'Source Sans Pro', sans-serif;
+@import '../../styles/index.scss';
 
 .Main {
   display: flex;
@@ -8,24 +6,21 @@ $font: 'Source Sans Pro', sans-serif;
   height: 100%;
 }
 
-.vertical-bar-container {
-  padding-left: 30px;
-}
-
 .vertical-bar {
   height: 100%;
   position: absolute;
   width: 30px;
-  background-color: purple;
+  background-color: $color-vertical-bar;
+  margin-left: 30px;
 }
 
 .divider {
-  background-color: black;
+  background-color: $color-divider;
   height: 2px;
 }
 
 .Content {
-  font-family: $font;
+  font-family: $font-text;
   display: flex;
   justify-content: center;
 }
