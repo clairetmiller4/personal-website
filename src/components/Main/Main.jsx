@@ -13,9 +13,7 @@ import Footer from '../Footer/Footer';
 function Main() {
   return (
     <div className="Main">
-      <div className="vertical-bar-container">
-        <div className="vertical-bar" />
-      </div>
+      <div className="vertical-bar" />
       <Header />
       <div className="divider" />
       <div className="Content">

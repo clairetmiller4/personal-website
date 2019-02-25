@@ -10,11 +10,12 @@ function About() {
           <img src={require('../../assets/img/portrait.jpg')} />
         </div>
         <div className="about-text">
-          <p>
-            I'm a senior at the University of Illinois at Urbana-Champaign
-            pursuing my Bachelor's degree in Computer Science and Mathematics. I
-            also have a minor in Spanish.
-          </p>
+          <ul>
+            <li>Software engineer at CCC Information Services</li>
+            <li>University of Illinois at Urbana-Champaign alumni</li>
+            <li>B.S. in Computer Science and Mathematics</li>
+            <li>Minor in Spanish</li>
+          </ul>
         </div>
       </div>
     </div>
