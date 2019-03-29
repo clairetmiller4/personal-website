@@ -12,11 +12,9 @@ import Footer from '../Footer/Footer';
 
 function Main() {
   return (
-    <div className="Main">
-      <div className="vertical-bar" />
+    <div className="main">
       <Header />
-      <div className="divider" />
-      <div className="Content">
+      <div className="content">
         <Route exact path="/" component={About} />
         <Route path="/work" component={Work} />
         <Route path="/projects" component={Projects} />

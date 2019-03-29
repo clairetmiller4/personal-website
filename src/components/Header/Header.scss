@@ -1,6 +1,6 @@
 @import '../../styles/index.scss';
 
-.Header {
+.header {
   display: flex;
   flex-direction: column;
   padding-bottom: 5px;
@@ -9,8 +9,6 @@
 h1 {
   text-align: center;
   font-family: $font-name-header;
-  //font-size: 300%;
-  //margin: 0;
   color: $color-name-header;
 }
 
@@ -19,19 +17,19 @@ h1 {
   justify-content: center;
   font-family: $font-text;
   padding-bottom: 5px;
+}
 
-  .link {
-    text-decoration: none;
-    color: $color-link-text;
-    padding-left: 1%;
-    padding-right: 1%;
+.link {
+  text-decoration: none;
+  color: $color-link-text;
+  padding-left: 10px;
+  padding-right: 10px;
 
-    &:hover {
-      color: $color-link-text-active;
-    }
-  }
-
-  .active-link {
+  &:hover {
     color: $color-link-text-active;
   }
+}
+
+.active-link {
+  color: $color-link-text-active;
 }

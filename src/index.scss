@@ -1,13 +1,13 @@
 @import './styles/index.scss';
 
-html,
 body {
-  height: 100%;
+  min-height: 100vh;
   margin: 0;
-  background-color: $color-page-background;
+  background: linear-gradient(
+    180deg,
+    $color-page-background 20%,
+    $color-lavender
+  );
+  background-repeat: no-repeat;
   color: $color-body-text;
-}
-
-#app {
-  height: 100%;
 }

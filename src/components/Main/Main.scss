@@ -1,26 +1,13 @@
 @import '../../styles/index.scss';
 
-.Main {
+.main {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
-.vertical-bar {
-  height: 100%;
-  position: absolute;
-  width: 30px;
-  background-color: $color-vertical-bar;
-  margin-left: 30px;
-}
-
-.divider {
-  background-color: $color-divider;
-  height: 2px;
-}
-
-.Content {
+.content {
   font-family: $font-text;
   display: flex;
+  // flex-direction: column;
   justify-content: center;
 }

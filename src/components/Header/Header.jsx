@@ -5,7 +5,7 @@ import './Header.scss';
 
 function Header() {
   return (
-    <div className="Header">
+    <div className="header">
       <h1>Claire Miller</h1>
       <nav className="navbar">
         <NavLink exact className="link" activeClassName="active-link" to="/">

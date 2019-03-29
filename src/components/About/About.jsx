@@ -4,7 +4,7 @@ import './About.scss';
 
 function About() {
   return (
-    <div className="About">
+    <div className="about">
       <div className="about-content">
         <div className="about-img">
           <img src={require('../../assets/img/portrait.jpg')} />

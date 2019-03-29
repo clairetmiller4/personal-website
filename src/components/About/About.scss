@@ -1,25 +1,25 @@
-.About {
+.about {
   display: flex;
   justify-content: center;
   padding-top: 15px;
-
-  .about-content {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-  }
 
   img {
     width: 100%;
     border-radius: 50%;
   }
+}
 
-  .about-img {
-    width: 25%;
-  }
+.about-content {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
 
-  .about-text {
-    width: 50%;
-    padding-left: 15px;
-  }
+.about-img {
+  width: 25%;
+}
+
+.about-text {
+  width: 50%;
+  padding-left: 15px;
 }
